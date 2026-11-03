@@ -12,10 +12,10 @@ Writing articles takes time. Recording your thoughts into a microphone is fast a
 
 ### Key Principles
 
-- **Author-first** — The article is built entirely from the author's spoken words. Nothing is invented or embellished.
-- **Voice preservation** — Colloquial expressions, personal anecdotes, spontaneous observations, and natural speech patterns are kept, not "cleaned up" into generic content.
-- **AI as assistant, not author** — AI transcribes, organizes, and formats. It does not create content, rewrite meaning, or add filler.
-- **No artificial SEO fluff** — The output avoids the robotic, overly-optimized tone that plagues AI-generated content.
+- **Author-first**: The article is built entirely from the author's spoken words. Nothing is invented or embellished.
+- **Voice preservation**: Colloquial expressions, personal anecdotes, spontaneous observations, and natural speech patterns are kept, not "cleaned up" into generic content.
+- **AI as assistant, not author**: AI transcribes, organizes, and formats. It does not create content, rewrite meaning, or add filler.
+- **No artificial SEO fluff**: The output avoids the robotic, overly-optimized tone that plagues AI-generated content.
 
 ## How It Works
 
