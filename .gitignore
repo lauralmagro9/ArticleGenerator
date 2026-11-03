@@ -2,4 +2,7 @@
 .env
 app.log
 poetry.lock
-credentials.json
+*.json
+*.ini
+
+**/temp_audio
