@@ -2,14 +2,23 @@ import os
 import json
 from datetime import datetime
 from typing import Dict, Any, Optional
+import config
 from config import logger
 
-DB_FILE = 'processed_files.json'
+DB_FILE = config.DB_FILE
 
 def load_db() -> Dict[str, Any]:
     """Loads the database from the JSON file. Creates it if it doesn't exist."""
+    db = DB_FILE
     if not os.path.exists(DB_FILE):
-        return {}
+        try:
+            with open(DB_FILE, 'w', encoding='utf-8') as f:
+                json.dump({}, f, ensure_ascii=False, indent=4)
+            logger.info(f"Created new empty database file at {DB_FILE}")
+            return {}
+        except Exception as e:
+            logger.error(f"Failed to create database file: {e}")
+            return {}
     try:
         with open(DB_FILE, 'r', encoding='utf-8') as f:
             return json.load(f)
@@ -20,6 +29,7 @@ def load_db() -> Dict[str, Any]:
 def save_db(data: Dict[str, Any]) -> None:
     """Saves the database to the JSON file."""
     try:
+        db = DB_FILE
         with open(DB_FILE, 'w', encoding='utf-8') as f:
             json.dump(data, f, indent=4, ensure_ascii=False)
     except Exception as e:
