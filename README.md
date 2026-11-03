@@ -36,12 +36,12 @@ Google Drive (audio files)
   Post as WordPress draft + create Google Doc backup
 ```
 
-1. **Monitor** — The app polls a Google Drive folder for new audio files (`.mp3`, `.m4a`, `.wav`, etc.).
-2. **Group** — Related audio files (e.g. `setas_cantharellus_1.mp3`, `setas_cantharellus_2.mp3`) are automatically grouped and processed together as a single article.
-3. **Transcribe & Structure** — Audio is sent to Google Gemini, which transcribes and structures the content into a clean HTML article. The prompt is carefully designed to preserve the author's natural voice and prohibit AI-typical language patterns.
-4. **Enrich** — The system automatically assigns a WordPress category, generates an SEO meta description, and injects 1–2 internal links to previously published articles.
-5. **Publish** — The finished article is uploaded to WordPress as a draft (ready for final review) and a Google Doc copy is created for reference.
-6. **Track** — Every processed file is tracked in a local JSON database to avoid duplicates.
+1. **Monitor**: The app polls a Google Drive folder for new audio files (`.mp3`, `.m4a`, `.wav`, etc.).
+2. **Group**: Related audio files (e.g. `setas_cantharellus_1.mp3`, `setas_cantharellus_2.mp3`) are automatically grouped and processed together as a single article.
+3. **Transcribe & Structure**: Audio is sent to Google Gemini, which transcribes and structures the content into a clean HTML article. The prompt is carefully designed to preserve the author's natural voice and prohibit AI-typical language patterns.
+4. **Enrich**: The system automatically assigns a WordPress category, generates an SEO meta description, and injects 1–2 internal links to previously published articles.
+5. **Publish**: The finished article is uploaded to WordPress as a draft (ready for final review) and a Google Doc copy is created for reference.
+6. **Track**: Every processed file is tracked in a local JSON database to avoid duplicates.
 
 ## Tech Stack
 
