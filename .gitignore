@@ -1,0 +1,8 @@
+**/__pycache__
+.env
+app.log
+poetry.lock
+*.json
+*.ini
+
+**/temp_audio

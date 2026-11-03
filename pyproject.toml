@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "articlegenerator"
+version = "0.1.0"
+description = "Article Generator using Google Gemini, Google Drive, and WordPress"
+authors = []
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+google-api-python-client = ">=2.120.0"
+google-auth-httplib2 = ">=0.2.0"
+google-auth-oauthlib = ">=1.2.0"
+google-genai = ">=0.1.1"
+pydantic = ">=2.6.0"
+requests = ">=2.31.0"
+python-dotenv = ">=1.0.1"
+pytest = "^9.0.3"
+werkzeug = "^3.1.8"
+certifi = "^2026.5.20"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
