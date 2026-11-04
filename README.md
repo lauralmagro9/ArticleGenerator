@@ -1,14 +1,14 @@
 # ArticleGenerator
 
-**Turn your voice into publish-ready articles — powered by AI, but 100 % your words.**
+**Turn your voice into publish-ready articles (100 % your words)**
 
-ArticleGenerator automates the workflow of turning spoken audio recordings into fully formatted blog articles, while keeping the original voice, personality, and tone of the author completely intact. The AI is used strictly as a tool to transcribe, structure, and format — it never invents content, changes the author's opinions, or injects artificial language. The result reads like the author wrote it by hand, because in every meaningful sense, they did.
+ArticleGenerator automates the workflow of turning spoken audio recordings into fully formatted blog articles, while keeping the original voice, personality, and tone of the author completely intact. The AI is used strictly as a tool to transcribe, structure, and format. It never invents content, changes the author's opinions, or injects artificial language. The result reads like the author wrote it by hand, because in every meaningful sense, they did.
 
 ## Why This Exists
 
-Writing articles takes time. Recording your thoughts into a microphone is fast and natural. The gap between a raw audio recording and a polished blog post is mostly mechanical work — transcription, formatting, SEO metadata, HTML structure. That's the gap this tool fills.
+Writing articles takes time. Recording your thoughts into a microphone is fast and natural. The gap between a raw audio recording and a polished blog post is mostly mechanical work: transcription, formatting, SEO metadata, HTML structure. That's the gap this tool fills.
 
-**This is not "ask AI to write an article about something."** The information, the stories, the opinions, the tone — everything comes from the author's own voice. AI handles the tedious parts (transcription, structuring, HTML formatting) so the author can focus on what matters: sharing their knowledge and experience.
+**This is not "ask AI to write an article about something."** The information, the stories, the opinions and the tone come from the author's own voice. AI handles the tedious parts (transcription, structuring, HTML formatting) so the author can focus on what matters: sharing their knowledge and experience.
 
 ### Key Principles
 
@@ -58,7 +58,7 @@ Google Drive (audio files)
 
 ```
 ArticleGenerator/
-├── main.py                  # Entry point — daemon or run-once mode
+├── main.py                  # Entry point: daemon or run-once mode
 ├── process.py               # Core pipeline: download → generate → publish
 ├── config.py                # All configuration, prompts, and constants
 ├── db.py                    # JSON-based file tracking database
